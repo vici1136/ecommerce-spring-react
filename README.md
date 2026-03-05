@@ -6,8 +6,8 @@
 
 ### 🧪 Test/Demo Accounts
 Don't want to register? Use these credentials to test the platform:
-* **Admin User:** `admin` | **Password:** `admin` *(or your configured password)*
-* **Customer User:** `customer` | **Password:** `customer` *(or your configured password)*
+* **Admin User:** `admin` | **Password:** `admin`
+* **Customer User:** `customer` | **Password:** `customer`
 
 > ⚠️ **Important Note on Initial Load Time:** > Because the backend API is hosted on Render's free tier, the server spins down after 15 minutes of inactivity. **When you first visit the live application or try to log in, it may take 50-60 seconds to wake up.** Please be patient on the first request! Subsequent requests will be incredibly fast.
 
@@ -56,24 +56,24 @@ The application offers tailored experiences based on user roles (Admin vs. Custo
 
 ### 🔐 Secure Authentication
 JWT-based login system that directs users to their specific interfaces based on their role.
-![Login Page](./screenshots/login.jpg)
+![Login Page](./screenshots/login.png)
 
 ### 🛠️ Admin Dashboard & Inventory Management
 Administrators have full CRUD access to the product catalog and a dashboard summarizing business metrics.
-![Admin Dashboard](./screenshots/admin-dashboard.jpg)
-![Product Management](./screenshots/admin-products.jpg)
-![Add Product](./screenshots/add-product.jpg)
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+![Product Management](./screenshots/admin-products.png)
+![Add Product](./screenshots/add-product.png)
 
 ### 🛍️ Customer Shopping Flow
 Customers can browse the catalog, add items to their cart, and complete the checkout process seamlessly.
-![Add to Cart](./screenshots/add-to-cart.jpg)
-![Shopping Cart](./screenshots/cart.jpg)
-![Checkout Process](./screenshots/checkout.jpg)
+![Add to Cart](./screenshots/add-to-cart.png)
+![Shopping Cart](./screenshots/cart.png)
+![Checkout Process](./screenshots/checkout.png)
 
 ### 💬 Real-Time Live Support (Firebase)
 A floating chat widget allows customers to communicate instantly with administrators. The admin has a dedicated Inbox to reply to users in real time.
-![Customer Chat Widget](./screenshots/customer-chat.jpg)
-![Admin Inbox](./screenshots/admin-inbox.jpg)
+![Customer Chat Widget](./screenshots/customer-chat.png)
+![Admin Inbox](./screenshots/admin-inbox.png)
 
 ---
 
