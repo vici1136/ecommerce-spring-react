@@ -10,6 +10,8 @@ import AdminChatPage from './pages/AdminChatPage';
 import { CartProvider } from './contexts/CartContext'; // <--- Import
 import  CartPage  from './pages/CartPage';
 
+console.log("URL CITIT DE VITE ESTE:", import.meta.env.VITE_API_URL);
+
 // Modificăm ProtectedPage să folosească Layout
 function ProtectedPage({ page, allowed = [] }) {
   const { user } = useAuth();
