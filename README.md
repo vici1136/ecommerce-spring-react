@@ -1,8 +1,13 @@
 # 🛒 E-Commerce Full-Stack Platform
 
 ## 🌐 Live Links & API Documentation
-* **Live Web Application:** [Shop App on Netlify](https://my-shop-application.netlify.app/)
-* **API Swagger Documentation:** [Shop Backend on Render](https://my-shop-app-fxdf.onrender.com/swagger-ui/index.html#/)
+* **Live Web Application:** [Shop App on Netlify](https://shop-app-vici1136.netlify.app/)
+* **API Swagger Documentation:** [Shop Backend on Render](https://shop-backend-s5ax.onrender.com/swagger-ui/index.html#/)
+
+### 🧪 Test/Demo Accounts
+Don't want to register? Use these credentials to test the platform:
+* **Admin User:** `admin` | **Password:** `admin` *(or your configured password)*
+* **Customer User:** `customer` | **Password:** `customer` *(or your configured password)*
 
 > ⚠️ **Important Note on Initial Load Time:** > Because the backend API is hosted on Render's free tier, the server spins down after 15 minutes of inactivity. **When you first visit the live application or try to log in, it may take 50-60 seconds to wake up.** Please be patient on the first request! Subsequent requests will be incredibly fast.
 
@@ -43,7 +48,36 @@ The application is built using modern software engineering practices to ensure s
 * **Neon** (Serverless Cloud PostgreSQL)
 * **Upstash** (Serverless Cloud Redis)
 
-## 4. Documentation & Learning Resources
+---
+
+## 4. Features & UI Showcase
+
+The application offers tailored experiences based on user roles (Admin vs. Customer).
+
+### 🔐 Secure Authentication
+JWT-based login system that directs users to their specific interfaces based on their role.
+![Login Page](./screenshots/login.jpg)
+
+### 🛠️ Admin Dashboard & Inventory Management
+Administrators have full CRUD access to the product catalog and a dashboard summarizing business metrics.
+![Admin Dashboard](./screenshots/admin-dashboard.jpg)
+![Product Management](./screenshots/admin-products.jpg)
+![Add Product](./screenshots/add-product.jpg)
+
+### 🛍️ Customer Shopping Flow
+Customers can browse the catalog, add items to their cart, and complete the checkout process seamlessly.
+![Add to Cart](./screenshots/add-to-cart.jpg)
+![Shopping Cart](./screenshots/cart.jpg)
+![Checkout Process](./screenshots/checkout.jpg)
+
+### 💬 Real-Time Live Support (Firebase)
+A floating chat widget allows customers to communicate instantly with administrators. The admin has a dedicated Inbox to reply to users in real time.
+![Customer Chat Widget](./screenshots/customer-chat.jpg)
+![Admin Inbox](./screenshots/admin-inbox.jpg)
+
+---
+
+## 5. Documentation & Learning Resources
 Throughout the development of this project, several architectural guidelines and tutorials were followed:
 * 📘 [REACT Documentation Site](https://alexandrugh.github.io/react-project-doc/)
 * 📘 [Project Requirements & Next Steps](https://alexandrugh.github.io/AC_Inginerie_Software_2025-2026/)
@@ -51,7 +85,7 @@ Throughout the development of this project, several architectural guidelines and
 * 🛠️ [CRUD API Design Guidelines](https://blog.stoplight.io/crud-api-design)
 * 🎥 React Video Tutorials: [Part 1](https://www.youtube.com/watch?v=CgkZ7MvWUAA&t=15397s) | [Part 2](http://youtube.com/watch?v=G6D9cBaLViA&t=4513s)
 
-## 5. How to Run Locally
+## 6. How to Run Locally
 
 If you want to run the project locally instead of using the live cloud version, you can do so using Docker or by installing the local software dependencies.
 
@@ -59,7 +93,7 @@ If you want to run the project locally instead of using the live cloud version, 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/vici1136/ecommerce-spring-react.git
+   git clone [https://github.com/vici1136/ecommerce-spring-react.git](https://github.com/vici1136/ecommerce-spring-react.git)
    cd ecommerce-spring-react
    ```
 
